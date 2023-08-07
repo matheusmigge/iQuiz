@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D285BE52A7DF190007FE833 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D285BE42A7DF190007FE833 /* QuestaoViewController.swift */; };
+		9D285BE72A7E01BA007FE833 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D285BE62A7E01BA007FE833 /* Questao.swift */; };
+		9D33935A2A80A81600D0808F /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3393592A80A81600D0808F /* UIColor+.swift */; };
+		9D33B6C12A7F3A12005A5FB5 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D33B6C02A7F3A12005A5FB5 /* DesempenhoViewController.swift */; };
 		9D3C3D462A7B3D2C008F8520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C3D452A7B3D2C008F8520 /* AppDelegate.swift */; };
 		9D3C3D482A7B3D2C008F8520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C3D472A7B3D2C008F8520 /* SceneDelegate.swift */; };
 		9D3C3D4A2A7B3D2C008F8520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C3D492A7B3D2C008F8520 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D285BE42A7DF190007FE833 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		9D285BE62A7E01BA007FE833 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		9D3393592A80A81600D0808F /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		9D33B6C02A7F3A12005A5FB5 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 		9D3C3D422A7B3D2C008F8520 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3C3D452A7B3D2C008F8520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D3C3D472A7B3D2C008F8520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D3393562A80A5BD00D0808F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D3C3D492A7B3D2C008F8520 /* ViewController.swift */,
+				9D285BE42A7DF190007FE833 /* QuestaoViewController.swift */,
+				9D33B6C02A7F3A12005A5FB5 /* DesempenhoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9D3393572A80A5DC00D0808F /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				9D285BE62A7E01BA007FE833 /* Questao.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		9D3393582A80A7C100D0808F /* Extensões */ = {
+			isa = PBXGroup;
+			children = (
+				9D3393592A80A81600D0808F /* UIColor+.swift */,
+			);
+			name = "Extensões";
+			path = "Extensões";
+			sourceTree = "<group>";
+		};
 		9D3C3D392A7B3D2C008F8520 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +91,11 @@
 		9D3C3D442A7B3D2C008F8520 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				9D3393582A80A7C100D0808F /* Extensões */,
+				9D3393572A80A5DC00D0808F /* Modelo */,
+				9D3393562A80A5BD00D0808F /* ViewController */,
 				9D3C3D452A7B3D2C008F8520 /* AppDelegate.swift */,
 				9D3C3D472A7B3D2C008F8520 /* SceneDelegate.swift */,
-				9D3C3D492A7B3D2C008F8520 /* ViewController.swift */,
 				9D3C3D4B2A7B3D2C008F8520 /* Main.storyboard */,
 				9D3C3D4E2A7B3D31008F8520 /* Assets.xcassets */,
 				9D3C3D502A7B3D31008F8520 /* LaunchScreen.storyboard */,
@@ -141,6 +178,10 @@
 				9D3C3D4A2A7B3D2C008F8520 /* ViewController.swift in Sources */,
 				9D3C3D462A7B3D2C008F8520 /* AppDelegate.swift in Sources */,
 				9D3C3D482A7B3D2C008F8520 /* SceneDelegate.swift in Sources */,
+				9D285BE72A7E01BA007FE833 /* Questao.swift in Sources */,
+				9D33B6C12A7F3A12005A5FB5 /* DesempenhoViewController.swift in Sources */,
+				9D285BE52A7DF190007FE833 /* QuestaoViewController.swift in Sources */,
+				9D33935A2A80A81600D0808F /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +365,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
